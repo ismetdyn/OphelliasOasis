@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4B15BF7B-517B-4C97-8CF1-C157930B5918}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OphelliasOasis.Presentation</RootNamespace>
+    <AssemblyName>OphelliasOasis.Presentation</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v20.1" />
+    <Reference Include="DevExpress.Charts.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.CodeParser.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.Desktop.v20.1" />
+    <Reference Include="DevExpress.Data.v20.1" />
+    <Reference Include="DevExpress.DataAccess.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.DataAccess.v20.1.UI, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Dialogs.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Office.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Pdf.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.PivotGrid.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.RichEdit.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.RichEdit.v20.1.Export, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v20.1" />
+    <Reference Include="DevExpress.Sparkline.v20.1.Core" />
+    <Reference Include="DevExpress.Utils.v20.1.UI, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Xpo.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v20.1.Extensions, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v20.1.UI, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v20.1.Wizard, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraDialogs.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v20.1" />
+    <Reference Include="DevExpress.Printing.v20.1.Core" />
+    <Reference Include="DevExpress.XtraGauges.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGrid.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraNavBar.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPivotGrid.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraReports.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraReports.v20.1.Extensions, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraRichEdit.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraTreeList.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraVerticalGrid.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ManagementObject\Base_MO.cs" />
+    <Compile Include="ManagementObject\CalisanUI_MO.cs" />
+    <Compile Include="ManagementObject\FrgtPsswrdUI_MO.cs" />
+    <Compile Include="ManagementObject\LoginUI_MO.cs" />
+    <Compile Include="ManagementObject\MusteriUI_MO.cs" />
+    <Compile Include="ManagementObject\RaporlarUI_MO.cs" />
+    <Compile Include="ManagementObject\RegistrationUI_MO.cs" />
+    <Compile Include="ManagementObject\AnaMenuUI_MO.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UC\MusterilerToolTipUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\MusterilerToolTipUC.Designer.cs">
+      <DependentUpon>MusterilerToolTipUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\OdalarToolTipUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\OdalarToolTipUC.Designer.cs">
+      <DependentUpon>OdalarToolTipUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FrgtPsswrdUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FrgtPsswrdUI.designer.cs">
+      <DependentUpon>FrgtPsswrdUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\InitializeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\InitializeForm.designer.cs">
+      <DependentUpon>InitializeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\LoginUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\LoginUI.designer.cs">
+      <DependentUpon>LoginUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\MusterilerUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\MusterilerUI.Designer.cs">
+      <DependentUpon>MusterilerUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\OdalarToolTipUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\OdalarToolTipUI.Designer.cs">
+      <DependentUpon>OdalarToolTipUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\OdalarUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\OdalarUI.Designer.cs">
+      <DependentUpon>OdalarUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\RaporlarUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\RaporlarUI.Designer.cs">
+      <DependentUpon>RaporlarUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\RegistrationUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\RegistrationUI.designer.cs">
+      <DependentUpon>RegistrationUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\RezervasyonlarUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\RezervasyonlarUI.Designer.cs">
+      <DependentUpon>RezervasyonlarUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\AnaMenuUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\AnaMenuUI.Designer.cs">
+      <DependentUpon>AnaMenuUI.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UC\OdalarToolTipUC.resx">
+      <DependentUpon>OdalarToolTipUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FrgtPsswrdUI.resx">
+      <DependentUpon>FrgtPsswrdUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\InitializeForm.resx">
+      <DependentUpon>InitializeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\LoginUI.resx">
+      <DependentUpon>LoginUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\OdalarToolTipUI.resx">
+      <DependentUpon>OdalarToolTipUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\OdalarUI.resx">
+      <DependentUpon>OdalarUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\RaporlarUI.resx">
+      <DependentUpon>RaporlarUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\RegistrationUI.resx">
+      <DependentUpon>RegistrationUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\AnaMenuUI.resx">
+      <DependentUpon>AnaMenuUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OphelliasOasis.Business\OphelliasOasis.Business.csproj">
+      <Project>{f9dc5cc6-c8bf-4bf3-81d8-83a8bc803abb}</Project>
+      <Name>OphelliasOasis.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OphelliasOasis.Common\OphelliasOasis.Common.csproj">
+      <Project>{419895df-26b1-440e-b845-52c47863e636}</Project>
+      <Name>OphelliasOasis.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OphelliasOasis.Entity\OphelliasOasis.Entity.csproj">
+      <Project>{843b1bea-dc32-477f-a4ec-2e448d16ce0e}</Project>
+      <Name>OphelliasOasis.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OphelliasOasis.ORM\OphelliasOasis.ORM.csproj">
+      <Project>{dc0b5718-d663-4064-b8dc-55d7eb8ab0c5}</Project>
+      <Name>OphelliasOasis.ORM</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\6sigmaY.svg" />
+    <Content Include="Resources\actions_add.svg" />
+    <Content Include="Resources\actions_arrow1down.svg" />
+    <Content Include="Resources\actions_arrow4right.svg" />
+    <Content Include="Resources\actions_arrow4right1.svg" />
+    <Content Include="Resources\actions_check.svg" />
+    <Content Include="Resources\actions_check1.svg" />
+    <Content Include="Resources\actions_check2.svg" />
+    <Content Include="Resources\actions_database.svg" />
+    <None Include="Resources\actions_print.svg" />
+    <Content Include="Resources\add_32x32.png" />
+    <Content Include="Resources\alignjustify.svg" />
+    <Content Include="Resources\apply_32x32.png" />
+    <Content Include="Resources\apply_32x321.png" />
+    <Content Include="Resources\apply_32x322.png" />
+    <Content Include="Resources\bocustomer_32x32.png" />
+    <Content Include="Resources\bocustomer_32x321.png" />
+    <Content Include="Resources\bo_folder.svg" />
+    <Content Include="Resources\bo_lead.svg" />
+    <Content Include="Resources\bo_mydetails.svg" />
+    <Content Include="Resources\bo_note.svg" />
+    <Content Include="Resources\bo_note1.svg" />
+    <Content Include="Resources\bo_security_permission.svg" />
+    <Content Include="Resources\bo_security_permission1.svg" />
+    <Content Include="Resources\bo_user.svg" />
+    <Content Include="Resources\bo_validation.svg" />
+    <Content Include="Resources\bo_validation1.svg" />
+    <Content Include="Resources\bo_validation10.svg" />
+    <Content Include="Resources\bo_validation2.svg" />
+    <Content Include="Resources\bo_validation3.svg" />
+    <Content Include="Resources\bo_validation4.svg" />
+    <Content Include="Resources\bo_validation5.svg" />
+    <Content Include="Resources\bo_validation6.svg" />
+    <Content Include="Resources\bo_validation7.svg" />
+    <Content Include="Resources\bo_validation8.svg" />
+    <Content Include="Resources\bo_validation9.svg" />
+    <Content Include="Resources\cancel_32x32.png" />
+    <Content Include="Resources\cancel_32x321.png" />
+    <Content Include="Resources\cancel_32x322.png" />
+    <Content Include="Resources\chartgridlineshorizontal_minor.svg" />
+    <Content Include="Resources\close_32x32.png" />
+    <None Include="Resources\customers.svg" />
+    <Content Include="Resources\customer_16x16.png" />
+    <Content Include="Resources\customer_32x32.png" />
+    <Content Include="Resources\dark-mode-6682.svg" />
+    <Content Include="Resources\del.svg" />
+    <Content Include="Resources\del1.svg" />
+    <Content Include="Resources\del2.svg" />
+    <Content Include="Resources\doctor.svg" />
+    <Content Include="Resources\doublefirst_32x32.png" />
+    <Content Include="Resources\doublefirst_32x321.png" />
+    <Content Include="Resources\doublelast_32x32.png" />
+    <Content Include="Resources\doublelast_32x321.png" />
+    <Content Include="Resources\editconnection.svg" />
+    <None Include="Resources\exporttopdf.svg" />
+    <None Include="Resources\exporttoxlsx.svg" />
+    <None Include="Resources\exporttodocx.svg" />
+    <None Include="Resources\exporttortf.svg" />
+    <None Include="Resources\exporttohtml.svg" />
+    <None Include="Resources\exporttoepub.svg" />
+    <None Include="Resources\exporttoodt.svg" />
+    <None Include="Resources\exporttotxt.svg" />
+    <None Include="Resources\exporttoxlsx1.svg" />
+    <None Include="Resources\exporttopdf1.svg" />
+    <Content Include="Resources\find.svg" />
+    <Content Include="Resources\formatastable_32x32.png" />
+    <Content Include="Resources\historyitem_32x32.png" />
+    <Content Include="Resources\home_32x32.png" />
+    <None Include="Resources\hotel.svg" />
+    <Content Include="Resources\indir.svg" />
+    <Content Include="Resources\indiry.svg" />
+    <None Include="Resources\inout.svg" />
+    <Content Include="Resources\logical_32x32.png" />
+    <Content Include="Resources\newdatasource.svg" />
+    <Content Include="Resources\open.svg" />
+    <Content Include="Resources\open1.svg" />
+    <Content Include="Resources\pagemarginswide.svg" />
+    <None Include="Resources\PDF.bmp" />
+    <None Include="Resources\PDF.ico" />
+    <Content Include="Resources\piestyledonut_32x32.png" />
+    <Content Include="Resources\pie_32x32.png" />
+    <Content Include="Resources\private.svg" />
+    <Content Include="Resources\publicfix_32x32.png" />
+    <Content Include="Resources\refreshallpivottable_32x32.png" />
+    <None Include="Resources\report.svg" />
+    <Content Include="Resources\report2_32x32.png" />
+    <Content Include="Resources\report_32x32.png" />
+    <None Include="Resources\room.svg" />
+    <None Include="Resources\reserved.svg" />
+    <None Include="Resources\reviewers.svg" />
+    <None Include="Resources\save.svg" />
+    <Content Include="Resources\security_lock.svg" />
+    <Content Include="Resources\security_visibility.svg" />
+    <Content Include="Resources\security_visibilityoff.svg" />
+    <Content Include="Resources\showtestreport_32x32.png" />
+    <Content Include="Resources\technology_32x32.png" />
+    <Content Include="Resources\updatedataextract.svg" />
+    <Content Include="Resources\usergroup_32x32.png" />
+    <Content Include="Resources\usergroup_32x321.png" />
+    <Content Include="Resources\weather_moon.svg" />
+    <Content Include="Resources\weather_moon1.svg" />
+    <Content Include="Resources\weather_moon2.svg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,12 @@
+C:\Users\ismet\source\repos\OphelliasOasis.Common\obj\Debug\OphelliasOasis.Common.csproj.AssemblyReference.cache
+C:\Users\ismet\source\repos\OphelliasOasis.Common\obj\Debug\OphelliasOasis.Common.csproj.CoreCompileInputs.cache
+C:\Users\ismet\source\repos\OphelliasOasis.Common\bin\Debug\OphelliasOasis.Common.dll
+C:\Users\ismet\source\repos\OphelliasOasis.Common\bin\Debug\OphelliasOasis.Common.pdb
+C:\Users\ismet\source\repos\OphelliasOasis.Common\obj\Debug\OphelliasOasis.Common.dll
+C:\Users\ismet\source\repos\OphelliasOasis.Common\obj\Debug\OphelliasOasis.Common.pdb
+C:\Users\ismet\source\repos\OphelliasOasis\OphelliasOasis.Common\bin\Debug\OphelliasOasis.Common.dll
+C:\Users\ismet\source\repos\OphelliasOasis\OphelliasOasis.Common\bin\Debug\OphelliasOasis.Common.pdb
+C:\Users\ismet\source\repos\OphelliasOasis\OphelliasOasis.Common\obj\Debug\OphelliasOasis.Common.csproj.AssemblyReference.cache
+C:\Users\ismet\source\repos\OphelliasOasis\OphelliasOasis.Common\obj\Debug\OphelliasOasis.Common.csproj.CoreCompileInputs.cache
+C:\Users\ismet\source\repos\OphelliasOasis\OphelliasOasis.Common\obj\Debug\OphelliasOasis.Common.dll
+C:\Users\ismet\source\repos\OphelliasOasis\OphelliasOasis.Common\obj\Debug\OphelliasOasis.Common.pdb

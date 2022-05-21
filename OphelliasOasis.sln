@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32428.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Common", "0 - Common", "{7599B3A5-74DE-46A2-AFD3-6DD3E422DFE8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Entity", "1 - Entity", "{FC50C102-47F3-4F47-911E-C0ADEB89F1C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - ORM", "2 - ORM", "{0B82C30D-6720-4C9F-BFCD-2CE8C4171726}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Business", "3 - Business", "{EB272E6B-3FF3-4F27-A38D-AD91469874AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Presentation", "4 - Presentation", "{BE27A15A-AE30-44CA-8B52-6F980882880B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OphelliasOasis.Common", "OphelliasOasis.Common\OphelliasOasis.Common.csproj", "{419895DF-26B1-440E-B845-52C47863E636}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OphelliasOasis.Entity", "OphelliasOasis.Entity\OphelliasOasis.Entity.csproj", "{843B1BEA-DC32-477F-A4EC-2E448D16CE0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OphelliasOasis.ORM", "OphelliasOasis.ORM\OphelliasOasis.ORM.csproj", "{DC0B5718-D663-4064-B8DC-55D7EB8AB0C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OphelliasOasis.Presentation", "OphelliasOasis.Presentation\OphelliasOasis.Presentation.csproj", "{4B15BF7B-517B-4C97-8CF1-C157930B5918}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OphelliasOasis.Business", "OphelliasOasis.Business\OphelliasOasis.Business.csproj", "{F9DC5CC6-C8BF-4BF3-81D8-83A8BC803ABB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{419895DF-26B1-440E-B845-52C47863E636}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{419895DF-26B1-440E-B845-52C47863E636}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{419895DF-26B1-440E-B845-52C47863E636}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{419895DF-26B1-440E-B845-52C47863E636}.Release|Any CPU.Build.0 = Release|Any CPU
+		{843B1BEA-DC32-477F-A4EC-2E448D16CE0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{843B1BEA-DC32-477F-A4EC-2E448D16CE0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{843B1BEA-DC32-477F-A4EC-2E448D16CE0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{843B1BEA-DC32-477F-A4EC-2E448D16CE0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC0B5718-D663-4064-B8DC-55D7EB8AB0C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC0B5718-D663-4064-B8DC-55D7EB8AB0C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC0B5718-D663-4064-B8DC-55D7EB8AB0C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC0B5718-D663-4064-B8DC-55D7EB8AB0C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B15BF7B-517B-4C97-8CF1-C157930B5918}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B15BF7B-517B-4C97-8CF1-C157930B5918}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B15BF7B-517B-4C97-8CF1-C157930B5918}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B15BF7B-517B-4C97-8CF1-C157930B5918}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9DC5CC6-C8BF-4BF3-81D8-83A8BC803ABB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9DC5CC6-C8BF-4BF3-81D8-83A8BC803ABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9DC5CC6-C8BF-4BF3-81D8-83A8BC803ABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9DC5CC6-C8BF-4BF3-81D8-83A8BC803ABB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{419895DF-26B1-440E-B845-52C47863E636} = {7599B3A5-74DE-46A2-AFD3-6DD3E422DFE8}
+		{843B1BEA-DC32-477F-A4EC-2E448D16CE0E} = {FC50C102-47F3-4F47-911E-C0ADEB89F1C2}
+		{DC0B5718-D663-4064-B8DC-55D7EB8AB0C5} = {0B82C30D-6720-4C9F-BFCD-2CE8C4171726}
+		{4B15BF7B-517B-4C97-8CF1-C157930B5918} = {BE27A15A-AE30-44CA-8B52-6F980882880B}
+		{F9DC5CC6-C8BF-4BF3-81D8-83A8BC803ABB} = {EB272E6B-3FF3-4F27-A38D-AD91469874AC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F4E06E7C-E529-4A55-A13E-0C7C5DDCBA60}
+	EndGlobalSection
+EndGlobal

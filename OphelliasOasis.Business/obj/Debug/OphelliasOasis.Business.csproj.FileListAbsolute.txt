@@ -1,0 +1,13 @@
+C:\Users\ismet\source\repos\OphelliasOasis\OphelliasOasis.Business\obj\Debug\OphelliasOasis.Business.csproj.AssemblyReference.cache
+C:\Users\ismet\source\repos\OphelliasOasis\OphelliasOasis.Business\obj\Debug\OphelliasOasis.Business.csproj.CoreCompileInputs.cache
+C:\Users\ismet\source\repos\OphelliasOasis\OphelliasOasis.Business\bin\Debug\OphelliasOasis.Business.dll
+C:\Users\ismet\source\repos\OphelliasOasis\OphelliasOasis.Business\bin\Debug\OphelliasOasis.Business.pdb
+C:\Users\ismet\source\repos\OphelliasOasis\OphelliasOasis.Business\bin\Debug\OphelliasOasis.Common.dll
+C:\Users\ismet\source\repos\OphelliasOasis\OphelliasOasis.Business\bin\Debug\OphelliasOasis.Entity.dll
+C:\Users\ismet\source\repos\OphelliasOasis\OphelliasOasis.Business\bin\Debug\OphelliasOasis.ORM.dll
+C:\Users\ismet\source\repos\OphelliasOasis\OphelliasOasis.Business\bin\Debug\OphelliasOasis.Common.pdb
+C:\Users\ismet\source\repos\OphelliasOasis\OphelliasOasis.Business\bin\Debug\OphelliasOasis.Entity.pdb
+C:\Users\ismet\source\repos\OphelliasOasis\OphelliasOasis.Business\bin\Debug\OphelliasOasis.ORM.pdb
+C:\Users\ismet\source\repos\OphelliasOasis\OphelliasOasis.Business\obj\Debug\OphelliasOasis.Business.csproj.CopyComplete
+C:\Users\ismet\source\repos\OphelliasOasis\OphelliasOasis.Business\obj\Debug\OphelliasOasis.Business.dll
+C:\Users\ismet\source\repos\OphelliasOasis\OphelliasOasis.Business\obj\Debug\OphelliasOasis.Business.pdb
