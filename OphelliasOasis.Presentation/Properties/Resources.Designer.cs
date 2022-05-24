@@ -101,22 +101,32 @@ namespace OphelliasOasis.Presentation.Properties {
         }
         
         /// <summary>
-        ///   System.Byte[] türünde yerelleştirilmiş bir kaynak arar.
+        ///   DevExpress.Utils.Svg.SvgImage türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
-        internal static byte[] actions_arrow4right {
+        internal static DevExpress.Utils.Svg.SvgImage actions_arrow4right {
             get {
                 object obj = ResourceManager.GetObject("actions_arrow4right", resourceCulture);
-                return ((byte[])(obj));
+                return ((DevExpress.Utils.Svg.SvgImage)(obj));
             }
         }
         
         /// <summary>
-        ///   System.Byte[] türünde yerelleştirilmiş bir kaynak arar.
+        ///   DevExpress.Utils.Svg.SvgImage türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
-        internal static byte[] actions_arrow4right1 {
+        internal static DevExpress.Utils.Svg.SvgImage actions_arrow4right1 {
             get {
                 object obj = ResourceManager.GetObject("actions_arrow4right1", resourceCulture);
-                return ((byte[])(obj));
+                return ((DevExpress.Utils.Svg.SvgImage)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   DevExpress.Utils.Svg.SvgImage türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static DevExpress.Utils.Svg.SvgImage actions_arrow4right2 {
+            get {
+                object obj = ResourceManager.GetObject("actions_arrow4right2", resourceCulture);
+                return ((DevExpress.Utils.Svg.SvgImage)(obj));
             }
         }
         
@@ -231,12 +241,12 @@ namespace OphelliasOasis.Presentation.Properties {
         }
         
         /// <summary>
-        ///   System.Byte[] türünde yerelleştirilmiş bir kaynak arar.
+        ///   DevExpress.Utils.Svg.SvgImage türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
-        internal static byte[] bo_lead {
+        internal static DevExpress.Utils.Svg.SvgImage bo_lead {
             get {
                 object obj = ResourceManager.GetObject("bo_lead", resourceCulture);
-                return ((byte[])(obj));
+                return ((DevExpress.Utils.Svg.SvgImage)(obj));
             }
         }
         
@@ -271,6 +281,16 @@ namespace OphelliasOasis.Presentation.Properties {
         }
         
         /// <summary>
+        ///   DevExpress.Utils.Svg.SvgImage türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static DevExpress.Utils.Svg.SvgImage bo_position {
+            get {
+                object obj = ResourceManager.GetObject("bo_position", resourceCulture);
+                return ((DevExpress.Utils.Svg.SvgImage)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   System.Byte[] türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
         internal static byte[] bo_security_permission {
@@ -301,12 +321,12 @@ namespace OphelliasOasis.Presentation.Properties {
         }
         
         /// <summary>
-        ///   System.Byte[] türünde yerelleştirilmiş bir kaynak arar.
+        ///   DevExpress.Utils.Svg.SvgImage türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
-        internal static byte[] bo_validation {
+        internal static DevExpress.Utils.Svg.SvgImage bo_validation {
             get {
                 object obj = ResourceManager.GetObject("bo_validation", resourceCulture);
-                return ((byte[])(obj));
+                return ((DevExpress.Utils.Svg.SvgImage)(obj));
             }
         }
         
@@ -521,12 +541,12 @@ namespace OphelliasOasis.Presentation.Properties {
         }
         
         /// <summary>
-        ///   System.Byte[] türünde yerelleştirilmiş bir kaynak arar.
+        ///   DevExpress.Utils.Svg.SvgImage türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
-        internal static byte[] del {
+        internal static DevExpress.Utils.Svg.SvgImage del {
             get {
                 object obj = ResourceManager.GetObject("del", resourceCulture);
-                return ((byte[])(obj));
+                return ((DevExpress.Utils.Svg.SvgImage)(obj));
             }
         }
         
@@ -547,6 +567,16 @@ namespace OphelliasOasis.Presentation.Properties {
             get {
                 object obj = ResourceManager.GetObject("del2", resourceCulture);
                 return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   DevExpress.Utils.Svg.SvgImage türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static DevExpress.Utils.Svg.SvgImage deletedatasource {
+            get {
+                object obj = ResourceManager.GetObject("deletedatasource", resourceCulture);
+                return ((DevExpress.Utils.Svg.SvgImage)(obj));
             }
         }
         
@@ -607,6 +637,16 @@ namespace OphelliasOasis.Presentation.Properties {
             get {
                 object obj = ResourceManager.GetObject("editconnection", resourceCulture);
                 return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   DevExpress.Utils.Svg.SvgImage türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static DevExpress.Utils.Svg.SvgImage editnames {
+            get {
+                object obj = ResourceManager.GetObject("editnames", resourceCulture);
+                return ((DevExpress.Utils.Svg.SvgImage)(obj));
             }
         }
         
@@ -867,6 +907,16 @@ namespace OphelliasOasis.Presentation.Properties {
             get {
                 object obj = ResourceManager.GetObject("publicfix_32x32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   DevExpress.Utils.Svg.SvgImage türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static DevExpress.Utils.Svg.SvgImage refreshallpivottable {
+            get {
+                object obj = ResourceManager.GetObject("refreshallpivottable", resourceCulture);
+                return ((DevExpress.Utils.Svg.SvgImage)(obj));
             }
         }
         

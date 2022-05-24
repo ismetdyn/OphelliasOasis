@@ -42,8 +42,8 @@ namespace OphelliasOasis.Presentation
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginUI));
             this.behaviorManager1 = new DevExpress.Utils.Behaviors.BehaviorManager(this.components);
             this.errorProvider = new DevExpress.XtraEditors.DXErrorProvider.DXErrorProvider(this.components);
-            this.panelMainLogin = new DevExpress.XtraEditors.PanelControl();
             this.beSifre = new DevExpress.XtraEditors.ButtonEdit();
+            this.panelMainLogin = new DevExpress.XtraEditors.PanelControl();
             this.checkEditBeniHatirla = new DevExpress.XtraEditors.CheckEdit();
             this.svgImageBox1 = new DevExpress.XtraEditors.SvgImageBox();
             this.tgGeceModu = new DevExpress.XtraEditors.ToggleSwitch();
@@ -53,9 +53,9 @@ namespace OphelliasOasis.Presentation
             this.beKullaniciAdi = new DevExpress.XtraEditors.ButtonEdit();
             ((System.ComponentModel.ISupportInitialize)(this.behaviorManager1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.beSifre.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelMainLogin)).BeginInit();
             this.panelMainLogin.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.beSifre.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEditBeniHatirla.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.svgImageBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tgGeceModu.Properties)).BeginInit();
@@ -65,22 +65,6 @@ namespace OphelliasOasis.Presentation
             // errorProvider
             // 
             this.errorProvider.ContainerControl = this;
-            // 
-            // panelMainLogin
-            // 
-            this.panelMainLogin.Controls.Add(this.beSifre);
-            this.panelMainLogin.Controls.Add(this.checkEditBeniHatirla);
-            this.panelMainLogin.Controls.Add(this.svgImageBox1);
-            this.panelMainLogin.Controls.Add(this.tgGeceModu);
-            this.panelMainLogin.Controls.Add(this.btnGiris);
-            this.panelMainLogin.Controls.Add(this.hyperlinkKaydol);
-            this.panelMainLogin.Controls.Add(this.hyperlinkSifremiUnuttum);
-            this.panelMainLogin.Controls.Add(this.beKullaniciAdi);
-            this.panelMainLogin.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelMainLogin.Location = new System.Drawing.Point(0, 0);
-            this.panelMainLogin.Name = "panelMainLogin";
-            this.panelMainLogin.Size = new System.Drawing.Size(733, 433);
-            this.panelMainLogin.TabIndex = 0;
             // 
             // beSifre
             // 
@@ -98,7 +82,6 @@ namespace OphelliasOasis.Presentation
             editorButtonImageOptions1.AllowGlyphSkinning = DevExpress.Utils.DefaultBoolean.True;
             editorButtonImageOptions1.ImageUri.Uri = "Show";
             editorButtonImageOptions1.Location = DevExpress.XtraEditors.ImageLocation.MiddleRight;
-            editorButtonImageOptions1.SvgImage = global::OphelliasOasis.Presentation.Properties.Resources.security_visibilityoff;
             editorButtonImageOptions1.SvgImageColorizationMode = DevExpress.Utils.SvgImageColorizationMode.CommonPalette;
             serializableAppearanceObject2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
             serializableAppearanceObject2.Options.UseFont = true;
@@ -121,6 +104,22 @@ namespace OphelliasOasis.Presentation
             this.beSifre.Properties.UseSystemPasswordChar = true;
             this.beSifre.Size = new System.Drawing.Size(395, 46);
             this.beSifre.TabIndex = 11;
+            // 
+            // panelMainLogin
+            // 
+            this.panelMainLogin.Controls.Add(this.beSifre);
+            this.panelMainLogin.Controls.Add(this.checkEditBeniHatirla);
+            this.panelMainLogin.Controls.Add(this.svgImageBox1);
+            this.panelMainLogin.Controls.Add(this.tgGeceModu);
+            this.panelMainLogin.Controls.Add(this.btnGiris);
+            this.panelMainLogin.Controls.Add(this.hyperlinkKaydol);
+            this.panelMainLogin.Controls.Add(this.hyperlinkSifremiUnuttum);
+            this.panelMainLogin.Controls.Add(this.beKullaniciAdi);
+            this.panelMainLogin.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelMainLogin.Location = new System.Drawing.Point(0, 0);
+            this.panelMainLogin.Name = "panelMainLogin";
+            this.panelMainLogin.Size = new System.Drawing.Size(733, 433);
+            this.panelMainLogin.TabIndex = 0;
             // 
             // checkEditBeniHatirla
             // 
@@ -146,7 +145,7 @@ namespace OphelliasOasis.Presentation
             this.svgImageBox1.Name = "svgImageBox1";
             this.svgImageBox1.Size = new System.Drawing.Size(120, 120);
             this.svgImageBox1.SizeMode = DevExpress.XtraEditors.SvgImageSizeMode.Zoom;
-            this.svgImageBox1.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("svgImageBox1.SvgImage")));
+            this.svgImageBox1.SvgImage = global::OphelliasOasis.Presentation.Properties.Resources.bo_lead;
             this.svgImageBox1.TabIndex = 16;
             this.svgImageBox1.Text = "svgImageBox1";
             // 
@@ -169,7 +168,7 @@ namespace OphelliasOasis.Presentation
             this.btnGiris.AppearanceHovered.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
             this.btnGiris.AppearanceHovered.Options.UseFont = true;
             this.btnGiris.Enabled = false;
-            this.btnGiris.ImageOptions.SvgImage = global::OphelliasOasis.Presentation.Properties.Resources.actions_arrow4right1;
+            this.btnGiris.ImageOptions.SvgImage = global::OphelliasOasis.Presentation.Properties.Resources.actions_arrow4right;
             this.btnGiris.Location = new System.Drawing.Point(451, 337);
             this.btnGiris.Name = "btnGiris";
             this.btnGiris.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -213,13 +212,11 @@ namespace OphelliasOasis.Presentation
             this.beKullaniciAdi.Properties.AppearanceFocused.Options.UseFont = true;
             this.beKullaniciAdi.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat;
             this.beKullaniciAdi.Properties.ButtonsStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.beKullaniciAdi.Properties.ContextImageOptions.SvgImage = global::OphelliasOasis.Presentation.Properties.Resources.bo_user;
             this.beKullaniciAdi.Properties.MaxLength = 20;
             this.beKullaniciAdi.Properties.NullText = "Kullanıcı Adınız...";
             this.beKullaniciAdi.Properties.NullValuePrompt = "Kullanıcı Adınız...";
             this.beKullaniciAdi.Properties.Padding = new System.Windows.Forms.Padding(2, 2, 0, 0);
-            this.beKullaniciAdi.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard;
-            this.beKullaniciAdi.Size = new System.Drawing.Size(395, 46);
+            this.beKullaniciAdi.Size = new System.Drawing.Size(395, 38);
             this.beKullaniciAdi.TabIndex = 10;
             // 
             // LoginUI
@@ -236,14 +233,14 @@ namespace OphelliasOasis.Presentation
             this.Name = "LoginUI";
             this.Opacity = 0.95D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Sinav Sistemi - Giriş";
+            this.Text = "Ophellia\'s Oasis - Giriş";
             this.Load += new System.EventHandler(this.LoginUI_Load);
             ((System.ComponentModel.ISupportInitialize)(this.behaviorManager1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.beSifre.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelMainLogin)).EndInit();
             this.panelMainLogin.ResumeLayout(false);
             this.panelMainLogin.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.beSifre.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEditBeniHatirla.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.svgImageBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tgGeceModu.Properties)).EndInit();

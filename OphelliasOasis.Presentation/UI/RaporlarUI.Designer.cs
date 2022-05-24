@@ -40,18 +40,18 @@ namespace OphelliasOasis.Presentation.UI
             this.barDockControlRight = new DevExpress.XtraBars.BarDockControl();
             this.btnKaydetPDF = new DevExpress.XtraBars.BarButtonItem();
             this.btnKaydetEXCEL = new DevExpress.XtraBars.BarButtonItem();
-            this.btnYazdir = new DevExpress.XtraEditors.DropDownButton();
             this.btnKaydet = new DevExpress.XtraEditors.DropDownButton();
             this.popupMenuKaydet = new DevExpress.XtraBars.PopupMenu(this.components);
             this.panelUst = new DevExpress.XtraEditors.PanelControl();
+            this.btnYazdir = new DevExpress.XtraEditors.DropDownButton();
             this.accordionControl1 = new DevExpress.XtraBars.Navigation.AccordionControl();
             this.accordionControlElement1 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.btnBeklenenDolulukRaporu = new DevExpress.XtraBars.Navigation.AccordionControlElement();
-            this.accordionControlElement4 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
-            this.accordionControlElement5 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
+            this.btnBeklenenOdaGelirRaporu = new DevExpress.XtraBars.Navigation.AccordionControlElement();
+            this.btnTesvikRaporu = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.accordionControlElement2 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
-            this.accordionControlElement6 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
-            this.accordionControlElement7 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
+            this.btnGunlukGelenlerRaporu = new DevExpress.XtraBars.Navigation.AccordionControlElement();
+            this.btnGunlukDolulukRaporu = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.fluentDesignFormControl1 = new DevExpress.XtraBars.FluentDesignSystem.FluentDesignFormControl();
             this.tgsTema = new DevExpress.XtraBars.BarToggleSwitchItem();
@@ -157,19 +157,6 @@ namespace OphelliasOasis.Presentation.UI
             this.btnKaydetEXCEL.Name = "btnKaydetEXCEL";
             this.btnKaydetEXCEL.Tag = "xlsx";
             // 
-            // btnYazdir
-            // 
-            this.btnYazdir.AutoSize = true;
-            this.btnYazdir.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btnYazdir.DropDownArrowStyle = DevExpress.XtraEditors.DropDownArrowStyle.Show;
-            this.btnYazdir.ImageOptions.SvgImage = global::OphelliasOasis.Presentation.Properties.Resources.actions_print;
-            this.btnYazdir.Location = new System.Drawing.Point(828, 2);
-            this.btnYazdir.Name = "btnYazdir";
-            this.btnYazdir.ShowFocusRectangle = DevExpress.Utils.DefaultBoolean.False;
-            this.btnYazdir.Size = new System.Drawing.Size(103, 41);
-            this.btnYazdir.TabIndex = 3;
-            this.btnYazdir.Text = "Yazdır";
-            // 
             // btnKaydet
             // 
             this.btnKaydet.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
@@ -206,6 +193,19 @@ namespace OphelliasOasis.Presentation.UI
             this.panelUst.Size = new System.Drawing.Size(933, 45);
             this.panelUst.TabIndex = 1;
             // 
+            // btnYazdir
+            // 
+            this.btnYazdir.AutoSize = true;
+            this.btnYazdir.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnYazdir.DropDownArrowStyle = DevExpress.XtraEditors.DropDownArrowStyle.Show;
+            this.btnYazdir.ImageOptions.SvgImage = global::OphelliasOasis.Presentation.Properties.Resources.actions_print;
+            this.btnYazdir.Location = new System.Drawing.Point(828, 2);
+            this.btnYazdir.Name = "btnYazdir";
+            this.btnYazdir.ShowFocusRectangle = DevExpress.Utils.DefaultBoolean.False;
+            this.btnYazdir.Size = new System.Drawing.Size(103, 41);
+            this.btnYazdir.TabIndex = 3;
+            this.btnYazdir.Text = "Yazdır";
+            // 
             // accordionControl1
             // 
             this.accordionControl1.Appearance.AccordionControl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
@@ -236,8 +236,8 @@ namespace OphelliasOasis.Presentation.UI
             // 
             this.accordionControlElement1.Elements.AddRange(new DevExpress.XtraBars.Navigation.AccordionControlElement[] {
             this.btnBeklenenDolulukRaporu,
-            this.accordionControlElement4,
-            this.accordionControlElement5});
+            this.btnBeklenenOdaGelirRaporu,
+            this.btnTesvikRaporu});
             this.accordionControlElement1.Expanded = true;
             this.accordionControlElement1.Name = "accordionControlElement1";
             this.accordionControlElement1.Text = "Raporlar (Yönetici)";
@@ -246,40 +246,45 @@ namespace OphelliasOasis.Presentation.UI
             // 
             this.btnBeklenenDolulukRaporu.Name = "btnBeklenenDolulukRaporu";
             this.btnBeklenenDolulukRaporu.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
+            this.btnBeklenenDolulukRaporu.Tag = "beklenenDolulukRapor";
             this.btnBeklenenDolulukRaporu.Text = "Beklenen Doluluk Raporu";
             // 
-            // accordionControlElement4
+            // btnBeklenenOdaGelirRaporu
             // 
-            this.accordionControlElement4.Name = "accordionControlElement4";
-            this.accordionControlElement4.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
-            this.accordionControlElement4.Text = "Beklenen Oda Gelir Raporu";
+            this.btnBeklenenOdaGelirRaporu.Name = "btnBeklenenOdaGelirRaporu";
+            this.btnBeklenenOdaGelirRaporu.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
+            this.btnBeklenenOdaGelirRaporu.Tag = "beklenenOdaGelirRaporu";
+            this.btnBeklenenOdaGelirRaporu.Text = "Beklenen Oda Gelir Raporu";
             // 
-            // accordionControlElement5
+            // btnTesvikRaporu
             // 
-            this.accordionControlElement5.Name = "accordionControlElement5";
-            this.accordionControlElement5.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
-            this.accordionControlElement5.Text = "Teşvik Raporu";
+            this.btnTesvikRaporu.Name = "btnTesvikRaporu";
+            this.btnTesvikRaporu.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
+            this.btnTesvikRaporu.Tag = "tesvikRaporu";
+            this.btnTesvikRaporu.Text = "Teşvik Raporu";
             // 
             // accordionControlElement2
             // 
             this.accordionControlElement2.Elements.AddRange(new DevExpress.XtraBars.Navigation.AccordionControlElement[] {
-            this.accordionControlElement6,
-            this.accordionControlElement7});
+            this.btnGunlukGelenlerRaporu,
+            this.btnGunlukDolulukRaporu});
             this.accordionControlElement2.Expanded = true;
             this.accordionControlElement2.Name = "accordionControlElement2";
             this.accordionControlElement2.Text = "Raporlar (Çalışan)";
             // 
-            // accordionControlElement6
+            // btnGunlukGelenlerRaporu
             // 
-            this.accordionControlElement6.Name = "accordionControlElement6";
-            this.accordionControlElement6.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
-            this.accordionControlElement6.Text = "Günlük Gelenler Raporu";
+            this.btnGunlukGelenlerRaporu.Name = "btnGunlukGelenlerRaporu";
+            this.btnGunlukGelenlerRaporu.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
+            this.btnGunlukGelenlerRaporu.Tag = "gunlukGelenlerRaporu";
+            this.btnGunlukGelenlerRaporu.Text = "Günlük Gelenler Raporu";
             // 
-            // accordionControlElement7
+            // btnGunlukDolulukRaporu
             // 
-            this.accordionControlElement7.Name = "accordionControlElement7";
-            this.accordionControlElement7.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
-            this.accordionControlElement7.Text = "Günlük Doluluk Raporu";
+            this.btnGunlukDolulukRaporu.Name = "btnGunlukDolulukRaporu";
+            this.btnGunlukDolulukRaporu.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
+            this.btnGunlukDolulukRaporu.Tag = "gunlukDolulukOrani";
+            this.btnGunlukDolulukRaporu.Text = "Günlük Doluluk Raporu";
             // 
             // simpleButton1
             // 
@@ -375,11 +380,11 @@ namespace OphelliasOasis.Presentation.UI
         private DevExpress.XtraBars.BarToggleSwitchItem tgsTema;
         protected internal DevExpress.XtraBars.Navigation.AccordionControl accordionControl1;
         protected internal DevExpress.XtraBars.Navigation.AccordionControlElement btnBeklenenDolulukRaporu;
-        protected internal DevExpress.XtraBars.Navigation.AccordionControlElement accordionControlElement4;
-        protected internal DevExpress.XtraBars.Navigation.AccordionControlElement accordionControlElement5;
+        protected internal DevExpress.XtraBars.Navigation.AccordionControlElement btnBeklenenOdaGelirRaporu;
+        protected internal DevExpress.XtraBars.Navigation.AccordionControlElement btnTesvikRaporu;
         private DevExpress.XtraBars.Navigation.AccordionControlElement accordionControlElement1;
-        protected internal DevExpress.XtraBars.Navigation.AccordionControlElement accordionControlElement6;
-        protected internal DevExpress.XtraBars.Navigation.AccordionControlElement accordionControlElement7;
+        protected internal DevExpress.XtraBars.Navigation.AccordionControlElement btnGunlukGelenlerRaporu;
+        protected internal DevExpress.XtraBars.Navigation.AccordionControlElement btnGunlukDolulukRaporu;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
         protected internal DevExpress.XtraEditors.XtraFolderBrowserDialog xtraFolderBrowserDialog;
         private DevExpress.XtraBars.BarDockControl barDockControlLeft;

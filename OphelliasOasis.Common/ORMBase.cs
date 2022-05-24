@@ -132,14 +132,31 @@ namespace OphelliasOasis.Common
             return dt.ToList<ET>();
         }
 
-        public DataTable SelectDataTable()
+        public Result<DataTable> SelectDataTable()
         {
-            string query = "select * from ";
-            query += string.Format("{0}", Tools.TableAtt<ET>().TableName);
-            SqlDataAdapter adp = new SqlDataAdapter(query, Tools.Connection);
-            DataTable dt = new DataTable();
-            adp.Fill(dt);
-            return dt;
+            try
+            {
+                string query = "select * from ";
+                query += string.Format("{0}", Tools.TableAtt<ET>().TableName);
+                SqlDataAdapter adp = new SqlDataAdapter(query, Tools.Connection);
+                DataTable dt = new DataTable();
+                adp.Fill(dt);
+
+                return new Result<DataTable>
+                {
+                    IsSuccess = true,
+                    Message = "başarılı",
+                    Data = dt
+                };
+            }
+            catch (Exception ex)
+            {
+                return new Result<DataTable>
+                {
+                    IsSuccess = true,
+                    Message = ex.Message
+                };
+            }
         }
 
         private Result<SqlCommand> CreateInsertCommand(ET entity)
@@ -153,7 +170,9 @@ namespace OphelliasOasis.Common
                 foreach (PropertyInfo pi in typeof(ET).GetProperties())
                 {
                     DataObjectFieldAttribute att = Tools.DataObjectField(pi);
-                    if (pi.Name == Tools.TableAtt<ET>().IdentityColumn || att.IsColumn == false) continue;
+                    if (pi.Name == Tools.TableAtt<ET>().IdentityColumn ||
+                        att == null || 
+                        att.IsColumn == false ) continue;
 
                     object value = pi.GetValue(entity);
                     if (value == null) continue;

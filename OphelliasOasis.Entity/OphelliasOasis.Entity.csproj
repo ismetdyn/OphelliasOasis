@@ -41,22 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Abstract\IOdeme.cs" />
-    <Compile Include="Abstract\IRapor.cs" />
-    <Compile Include="Abstract\AbstractRezervasyon.cs" />
-    <Compile Include="Odeme\KrediKarti.cs" />
-    <Compile Include="Odeme\Nakit.cs" />
-    <Compile Include="Rapor\BeklenenDolulukRaporu.cs" />
-    <Compile Include="Rapor\BeklenenOdaGelirRaporu.cs" />
-    <Compile Include="Rapor\GunlukDolulukOraniRaporu.cs" />
-    <Compile Include="Rapor\GunlukGelenlerRaporu.cs" />
+    <Compile Include="BaseEntity.cs" />
+    <Compile Include="Kayit.cs" />
     <Compile Include="Kullanici.cs" />
+    <Compile Include="Musteri.cs" />
+    <Compile Include="Oda.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Rapor\TesvikRaporu.cs" />
-    <Compile Include="Rezervasyon\60gunOncedenRezervasyon.cs" />
-    <Compile Include="Rezervasyon\OnOdemeliRezervasyon.cs" />
-    <Compile Include="Rezervasyon\StandartRezervasyon.cs" />
-    <Compile Include="Rezervasyon\TesvikRezervasyon.cs" />
+    <Compile Include="Rezervasyon.cs" />
+    <Compile Include="RezervasyonTip.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\OphelliasOasis.Common\OphelliasOasis.Common.csproj">

@@ -1,10 +1,9 @@
-﻿using System;
-using OphelliasOasis.Common;
+﻿using OphelliasOasis.Common;
 
 namespace OphelliasOasis.Entity
 {
-    [Table("Kullanicilar", "KullaniciID", "KullaniciID", "KullaniciAdi")]
-    public class Kullanici : IDisposable
+    [Table("Kullanici", "KullaniciID", "KullaniciID", "KullaniciAdi")]
+    public class Kullanici : BaseEntity<Kullanici>
     {
         [DataObjectField("KullaniciID", true, true, true, false)]
         public int KullaniciID { get; set; }
@@ -26,12 +25,5 @@ namespace OphelliasOasis.Entity
 
         [DataObjectField]
         public int KullaniciTipID { get; set; }
-
-        public Kullanici DeepCopy()
-        {
-            return (Kullanici)MemberwiseClone();
-        }
-
-        public void Dispose() => GC.SuppressFinalize(this);
     }
 }

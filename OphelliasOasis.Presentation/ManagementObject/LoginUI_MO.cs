@@ -58,17 +58,12 @@ namespace OphelliasOasis.Presentation.ManagementObject
                 Program.kullanici = result.Data.DeepCopy();
                 UI.Close();
                 UI.Dispose();
-                this.Dispose();
                 switch (result.Data.KullaniciTipID)
                 {
                     case 1:
-                        //InitializeForm.Current.Islem<AdminUI_MO, AdminUI>();
-                        break;
                     case 2:
-                        //InitializeForm.Current.Islem<SoruEkleUI_MO, SoruEkleUI>();
-                        break;
-                    case 3:
-                        //InitializeForm.Current.Islem<UserUI_MO, UserUI>();
+                        InitializeForm.Current.Islem<AnaMenuUI_MO, AnaMenuUI>();
+                        this.Dispose();
                         break;
                     default:
                         break;

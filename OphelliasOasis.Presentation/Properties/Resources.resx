@@ -127,6 +127,9 @@
   <data name="bo_mydetails" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bo_mydetails.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="actions_arrow4right2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\actions_arrow4right4.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
   <data name="security_lock" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\security_lock.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -169,6 +172,9 @@
   <data name="formatastable_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\formatastable_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="refreshallpivottable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\refreshallpivottable.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
   <data name="exporttoxlsx" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\exporttoxlsx.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
@@ -186,6 +192,9 @@
   </data>
   <data name="piestyledonut_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\piestyledonut_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bo_validation7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bo_validation7.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="security_visibility" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\security_visibility.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -206,7 +215,7 @@
     <value>..\Resources\publicfix_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bo_lead" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bo_lead.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\bo_lead1.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="actions_check2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\actions_check2.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -235,20 +244,23 @@
   <data name="cancel_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cancel_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="exporttopdf1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exporttopdf1.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
   <data name="del1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\del1.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="doublefirst_32x321" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\doublefirst_32x321.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="security_visibilityoff" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\security_visibilityoff.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="exporttoxlsx1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exporttoxlsx1.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="bo_validation8" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bo_validation8.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="actions_arrow4right" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\actions_arrow4right.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\actions_arrow4right2.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="dark_mode_6682" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dark-mode-6682.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -261,6 +273,9 @@
   </data>
   <data name="doctor" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\doctor.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="editnames" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\editnames.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="bo_note" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bo_note.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -277,6 +292,9 @@
   <data name="actions_database" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\actions_database.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="security_visibilityoff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\security_visibilityoff.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="home_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\home_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -286,11 +304,8 @@
   <data name="chartgridlineshorizontal_minor" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\chartgridlineshorizontal_minor.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="bo_validation7" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bo_validation7.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="exporttoxlsx1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\exporttoxlsx1.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  <data name="bo_position" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bo_position.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="indir" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\indir.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -332,7 +347,7 @@
     <value>..\Resources\newdatasource.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="bo_validation" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bo_validation.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\bo_validation11.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="exporttotxt" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\exporttotxt.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
@@ -385,6 +400,9 @@
   <data name="bo_validation3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bo_validation3.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="deletedatasource" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\deletedatasource.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
   <data name="report" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\report.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
@@ -398,7 +416,7 @@
     <value>..\Resources\del2.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="actions_arrow4right1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\actions_arrow4right1.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\actions_arrow4right3.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="add_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\add_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -415,7 +433,7 @@
   <data name="bo_note1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bo_note1.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="exporttopdf1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\exporttopdf1.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  <data name="del" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\del3.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
 </root>

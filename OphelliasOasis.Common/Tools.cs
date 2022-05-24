@@ -19,7 +19,7 @@ namespace OphelliasOasis.Common
                 {
                     _connection = new SqlConnection();
                     _connection.ConnectionString = 
-                        ConfigurationManager.ConnectionStrings["SinavSistemiDB"].ConnectionString;
+                        ConfigurationManager.ConnectionStrings["OphelliasOasisDB"].ConnectionString;
                 }
                 return _connection; 
             }

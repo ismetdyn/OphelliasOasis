@@ -31,7 +31,9 @@ namespace OphelliasOasis.Presentation.UI
             //Islem<LoginUI_MO, LoginUI>();
             //Islem<FrgtPsswrdUI_MO, FrgtPsswrdUI>();
             //Islem<UserUI_MO, UserUI>();
-            Islem<AnaMenuUI_MO, AnaMenuUI>();
+            //Islem<AnaMenuUI_MO, AnaMenuUI>();
+            Islem<MusteriUI_MO, MusteriUI>();
+            //Islem<RaporlarUI_MO, RaporlarUI>();
         }
 
         public void Islem<MO, UI>() where MO : class, new() where UI : Form, new()

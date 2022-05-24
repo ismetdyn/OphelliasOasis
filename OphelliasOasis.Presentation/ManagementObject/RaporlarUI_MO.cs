@@ -8,6 +8,8 @@ using System.Diagnostics;
 using OphelliasOasis.ORM;
 using DevExpress.XtraBars;
 using DevExpress.XtraEditors;
+using DevExpress.XtraBars.Navigation;
+using System.Data;
 
 namespace OphelliasOasis.Presentation.ManagementObject
 {
@@ -19,6 +21,10 @@ namespace OphelliasOasis.Presentation.ManagementObject
         {
             UI = new RaporlarUI();
             UI.btnBeklenenDolulukRaporu.Click += new EventHandler(Click);
+            UI.btnBeklenenOdaGelirRaporu.Click += new EventHandler(Click);
+            UI.btnGunlukDolulukRaporu.Click += new EventHandler(Click);
+            UI.btnGunlukGelenlerRaporu.Click += new EventHandler(Click);
+            UI.btnTesvikRaporu.Click += new EventHandler(Click);
             UI.btnKaydetPDF.ItemClick += new ItemClickEventHandler(Kaydet);
             UI.btnKaydetEXCEL.ItemClick += new ItemClickEventHandler(Kaydet);
             UI.btnYazdir.Click += new EventHandler(Yazdir);
@@ -61,12 +67,7 @@ namespace OphelliasOasis.Presentation.ManagementObject
             UI.dgwRapor.ShowPrintPreview();
         }
 
-        private void BtnYazdir_Click(object sender, EventArgs e)
-        {
-            UI.dgwRapor.ShowPrintPreview();
-            
-        }
-
+        private void BtnYazdir_Click(object sender, EventArgs e) => UI.dgwRapor.ShowPrintPreview();
 
         private void UI_FormClosed(object sender, System.Windows.Forms.FormClosedEventArgs e)
         {
@@ -77,8 +78,11 @@ namespace OphelliasOasis.Presentation.ManagementObject
 
         void Click(object sender, EventArgs e)
         {
-            UI.dgwRapor.DataSource = KullaniciORM.Current.SelectDataTable();
-            MessageBox.Show("CLİCK");
+            UI.dgwRapor.DataSource = new DataTable();
+            string str = ((AccordionControlElement)sender).Tag.ToString();
+            Result<DataTable> result = RaporORM.RaporGetir(str);
+            if (!result.IsSuccess) { MessageBox.Show(result.Message); return; }
+            else UI.dgwRapor.DataSource = result.Data;
         }
     }
 }

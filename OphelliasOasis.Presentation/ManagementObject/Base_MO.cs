@@ -20,24 +20,6 @@ namespace OphelliasOasis.Presentation.ManagementObject
             }
         }
 
-        //private static UI _currentUI;
-
-        //protected internal static UI CurrentUI
-        //{
-        //    get
-        //    {
-        //        if (_currentUI == null) _currentUI = new UI();
-        //        return _currentUI;
-        //    }
-        //}
-
-        //public static void TrySetProperty()
-        //{
-        //    Type type = typeof(MO);
-        //    PropertyInfo pi = type.GetProperty("UI");
-        //    if(pi != null && pi.CanWrite && pi.GetValue(CurrentMO) == null) pi.SetValue(CurrentMO, new UI());
-        //}
-
         public void Dispose()
         {
             GC.SuppressFinalize(this);

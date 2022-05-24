@@ -30,11 +30,11 @@ namespace OphelliasOasis.Presentation.UI
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions4 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject13 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject14 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject15 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject16 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions1 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject1 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject2 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject3 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject4 = new DevExpress.Utils.SerializableAppearanceObject();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RegistrationUI));
             DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions2 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject5 = new DevExpress.Utils.SerializableAppearanceObject();
@@ -49,39 +49,39 @@ namespace OphelliasOasis.Presentation.UI
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
             this.panelReg = new DevExpress.XtraEditors.PanelControl();
             this.btnKaydol = new DevExpress.XtraEditors.SimpleButton();
-            this.beSifre = new DevExpress.XtraEditors.ButtonEdit();
-            this.beSifreTekrar = new DevExpress.XtraEditors.ButtonEdit();
-            this.beKullaniciAdi = new DevExpress.XtraEditors.ButtonEdit();
             this.panelCode = new DevExpress.XtraEditors.PanelControl();
             this.btnKodOnayla = new DevExpress.XtraEditors.SimpleButton();
             this.beCode = new DevExpress.XtraEditors.ButtonEdit();
+            this.beSifre = new DevExpress.XtraEditors.ButtonEdit();
+            this.beSifreTekrar = new DevExpress.XtraEditors.ButtonEdit();
+            this.beKullaniciAdi = new DevExpress.XtraEditors.ButtonEdit();
+            this.beAd = new DevExpress.XtraEditors.ButtonEdit();
+            this.beSoyad = new DevExpress.XtraEditors.ButtonEdit();
+            this.bePosta = new DevExpress.XtraEditors.ButtonEdit();
+            this.bePostaTekrar = new DevExpress.XtraEditors.ButtonEdit();
             this.svgImageBox1 = new DevExpress.XtraEditors.SvgImageBox();
             this.tgTema = new DevExpress.XtraEditors.ToggleSwitch();
             this.errorProvider = new DevExpress.XtraEditors.DXErrorProvider.DXErrorProvider(this.components);
             this.behaviorManager1 = new DevExpress.Utils.Behaviors.BehaviorManager(this.components);
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.beAd = new DevExpress.XtraEditors.ButtonEdit();
-            this.beSoyad = new DevExpress.XtraEditors.ButtonEdit();
-            this.bePosta = new DevExpress.XtraEditors.ButtonEdit();
-            this.bePostaTekrar = new DevExpress.XtraEditors.ButtonEdit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panelReg)).BeginInit();
             this.panelReg.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.beSifre.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.beSifreTekrar.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.beKullaniciAdi.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelCode)).BeginInit();
             this.panelCode.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.beCode.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.svgImageBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tgTema.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.errorProvider)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.behaviorManager1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.beSifre.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.beSifreTekrar.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.beKullaniciAdi.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.beAd.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.beSoyad.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bePosta.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bePostaTekrar.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.svgImageBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tgTema.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.behaviorManager1)).BeginInit();
             this.SuspendLayout();
             // 
             // panelControl1
@@ -129,6 +129,72 @@ namespace OphelliasOasis.Presentation.UI
             this.btnKaydol.TabIndex = 72;
             this.btnKaydol.Text = "Kaydol";
             // 
+            // panelCode
+            // 
+            this.panelCode.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.panelCode.Controls.Add(this.btnKodOnayla);
+            this.panelCode.Controls.Add(this.beCode);
+            this.panelCode.Enabled = false;
+            this.panelCode.Location = new System.Drawing.Point(5, 3);
+            this.panelCode.Name = "panelCode";
+            this.panelCode.Size = new System.Drawing.Size(445, 120);
+            this.panelCode.TabIndex = 78;
+            this.panelCode.Visible = false;
+            // 
+            // btnKodOnayla
+            // 
+            this.btnKodOnayla.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.btnKodOnayla.Appearance.Options.UseFont = true;
+            this.btnKodOnayla.AppearanceHovered.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
+            this.btnKodOnayla.AppearanceHovered.Options.UseFont = true;
+            this.btnKodOnayla.AutoSize = true;
+            this.btnKodOnayla.ImageOptions.SvgImage = global::OphelliasOasis.Presentation.Properties.Resources.actions_arrow4right2;
+            this.btnKodOnayla.Location = new System.Drawing.Point(266, 73);
+            this.btnKodOnayla.Name = "btnKodOnayla";
+            this.btnKodOnayla.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.btnKodOnayla.ShowFocusRectangle = DevExpress.Utils.DefaultBoolean.False;
+            this.btnKodOnayla.Size = new System.Drawing.Size(154, 44);
+            this.btnKodOnayla.TabIndex = 73;
+            this.btnKodOnayla.Text = "Kod Onayla";
+            // 
+            // beCode
+            // 
+            this.beCode.Cursor = System.Windows.Forms.Cursors.Default;
+            this.beCode.EditValue = "";
+            this.beCode.Location = new System.Drawing.Point(25, 21);
+            this.beCode.Name = "beCode";
+            this.beCode.Properties.AllowNullInput = DevExpress.Utils.DefaultBoolean.False;
+            this.beCode.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
+            this.beCode.Properties.Appearance.Options.UseFont = true;
+            this.beCode.Properties.AppearanceFocused.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.beCode.Properties.AppearanceFocused.Options.UseFont = true;
+            this.beCode.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat;
+            editorButtonImageOptions1.AllowGlyphSkinning = DevExpress.Utils.DefaultBoolean.True;
+            editorButtonImageOptions1.ImageUri.Uri = "Show";
+            editorButtonImageOptions1.Location = DevExpress.XtraEditors.ImageLocation.MiddleRight;
+            editorButtonImageOptions1.SvgImageColorizationMode = DevExpress.Utils.SvgImageColorizationMode.CommonPalette;
+            serializableAppearanceObject2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
+            serializableAppearanceObject2.Options.UseFont = true;
+            serializableAppearanceObject3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            serializableAppearanceObject3.Options.UseFont = true;
+            serializableAppearanceObject3.Options.UseTextOptions = true;
+            serializableAppearanceObject3.TextOptions.HotkeyPrefix = DevExpress.Utils.HKeyPrefix.Show;
+            this.beCode.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, editorButtonImageOptions1, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject1, serializableAppearanceObject2, serializableAppearanceObject3, serializableAppearanceObject4, "Şifreyi Göster", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
+            this.beCode.Properties.ButtonsStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat;
+            this.beCode.Properties.ContextImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("beCode.Properties.ContextImageOptions.SvgImage")));
+            this.beCode.Properties.ContextImageOptions.SvgImageColorizationMode = DevExpress.Utils.SvgImageColorizationMode.Full;
+            this.beCode.Properties.Mask.BeepOnError = true;
+            this.beCode.Properties.Mask.UseMaskAsDisplayFormat = true;
+            this.beCode.Properties.MaxLength = 20;
+            this.beCode.Properties.NullText = "Lütfen Emailinize gelen kodu giriniz..";
+            this.beCode.Properties.NullValuePrompt = "Lütfen Emailinize gelen kodu giriniz..";
+            this.beCode.Properties.Padding = new System.Windows.Forms.Padding(2, 0, 0, 0);
+            this.beCode.Properties.PasswordChar = '*';
+            this.beCode.Properties.UseSystemPasswordChar = true;
+            this.beCode.Size = new System.Drawing.Size(395, 46);
+            this.beCode.TabIndex = 72;
+            // 
             // beSifre
             // 
             this.beSifre.Cursor = System.Windows.Forms.Cursors.Default;
@@ -141,19 +207,18 @@ namespace OphelliasOasis.Presentation.UI
             this.beSifre.Properties.AppearanceFocused.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.beSifre.Properties.AppearanceFocused.Options.UseFont = true;
             this.beSifre.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat;
-            editorButtonImageOptions4.AllowGlyphSkinning = DevExpress.Utils.DefaultBoolean.True;
-            editorButtonImageOptions4.ImageUri.Uri = "Show";
-            editorButtonImageOptions4.Location = DevExpress.XtraEditors.ImageLocation.MiddleRight;
-            editorButtonImageOptions4.SvgImage = global::OphelliasOasis.Presentation.Properties.Resources.security_visibilityoff;
-            editorButtonImageOptions4.SvgImageColorizationMode = DevExpress.Utils.SvgImageColorizationMode.CommonPalette;
-            serializableAppearanceObject14.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
-            serializableAppearanceObject14.Options.UseFont = true;
-            serializableAppearanceObject15.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            serializableAppearanceObject15.Options.UseFont = true;
-            serializableAppearanceObject15.Options.UseTextOptions = true;
-            serializableAppearanceObject15.TextOptions.HotkeyPrefix = DevExpress.Utils.HKeyPrefix.Show;
+            editorButtonImageOptions2.AllowGlyphSkinning = DevExpress.Utils.DefaultBoolean.True;
+            editorButtonImageOptions2.ImageUri.Uri = "Show";
+            editorButtonImageOptions2.Location = DevExpress.XtraEditors.ImageLocation.MiddleRight;
+            editorButtonImageOptions2.SvgImageColorizationMode = DevExpress.Utils.SvgImageColorizationMode.CommonPalette;
+            serializableAppearanceObject6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
+            serializableAppearanceObject6.Options.UseFont = true;
+            serializableAppearanceObject7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            serializableAppearanceObject7.Options.UseFont = true;
+            serializableAppearanceObject7.Options.UseTextOptions = true;
+            serializableAppearanceObject7.TextOptions.HotkeyPrefix = DevExpress.Utils.HKeyPrefix.Show;
             this.beSifre.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, editorButtonImageOptions4, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject13, serializableAppearanceObject14, serializableAppearanceObject15, serializableAppearanceObject16, "Şifreyi Göster", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, editorButtonImageOptions2, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject5, serializableAppearanceObject6, serializableAppearanceObject7, serializableAppearanceObject8, "Şifreyi Göster", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
             this.beSifre.Properties.ButtonsStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat;
             this.beSifre.Properties.ContextImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("beSifre.Properties.ContextImageOptions.SvgImage")));
             this.beSifre.Properties.ContextImageOptions.SvgImageColorizationMode = DevExpress.Utils.SvgImageColorizationMode.Full;
@@ -180,19 +245,18 @@ namespace OphelliasOasis.Presentation.UI
             this.beSifreTekrar.Properties.AppearanceFocused.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.beSifreTekrar.Properties.AppearanceFocused.Options.UseFont = true;
             this.beSifreTekrar.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat;
-            editorButtonImageOptions2.AllowGlyphSkinning = DevExpress.Utils.DefaultBoolean.True;
-            editorButtonImageOptions2.ImageUri.Uri = "Show";
-            editorButtonImageOptions2.Location = DevExpress.XtraEditors.ImageLocation.MiddleRight;
-            editorButtonImageOptions2.SvgImage = global::OphelliasOasis.Presentation.Properties.Resources.security_visibilityoff;
-            editorButtonImageOptions2.SvgImageColorizationMode = DevExpress.Utils.SvgImageColorizationMode.CommonPalette;
-            serializableAppearanceObject6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
-            serializableAppearanceObject6.Options.UseFont = true;
-            serializableAppearanceObject7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            serializableAppearanceObject7.Options.UseFont = true;
-            serializableAppearanceObject7.Options.UseTextOptions = true;
-            serializableAppearanceObject7.TextOptions.HotkeyPrefix = DevExpress.Utils.HKeyPrefix.Show;
+            editorButtonImageOptions3.AllowGlyphSkinning = DevExpress.Utils.DefaultBoolean.True;
+            editorButtonImageOptions3.ImageUri.Uri = "Show";
+            editorButtonImageOptions3.Location = DevExpress.XtraEditors.ImageLocation.MiddleRight;
+            editorButtonImageOptions3.SvgImageColorizationMode = DevExpress.Utils.SvgImageColorizationMode.CommonPalette;
+            serializableAppearanceObject10.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
+            serializableAppearanceObject10.Options.UseFont = true;
+            serializableAppearanceObject11.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            serializableAppearanceObject11.Options.UseFont = true;
+            serializableAppearanceObject11.Options.UseTextOptions = true;
+            serializableAppearanceObject11.TextOptions.HotkeyPrefix = DevExpress.Utils.HKeyPrefix.Show;
             this.beSifreTekrar.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, editorButtonImageOptions2, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject5, serializableAppearanceObject6, serializableAppearanceObject7, serializableAppearanceObject8, "Şifreyi Göster", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, editorButtonImageOptions3, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject9, serializableAppearanceObject10, serializableAppearanceObject11, serializableAppearanceObject12, "Şifreyi Göster", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
             this.beSifreTekrar.Properties.ButtonsStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat;
             this.beSifreTekrar.Properties.ContextImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("beSifreTekrar.Properties.ContextImageOptions.SvgImage")));
             this.beSifreTekrar.Properties.ContextImageOptions.SvgImageColorizationMode = DevExpress.Utils.SvgImageColorizationMode.Full;
@@ -219,109 +283,12 @@ namespace OphelliasOasis.Presentation.UI
             this.beKullaniciAdi.Properties.AppearanceFocused.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
             this.beKullaniciAdi.Properties.AppearanceFocused.Options.UseFont = true;
             this.beKullaniciAdi.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat;
-            this.beKullaniciAdi.Properties.ContextImageOptions.SvgImage = global::OphelliasOasis.Presentation.Properties.Resources.bo_user;
             this.beKullaniciAdi.Properties.MaxLength = 20;
             this.beKullaniciAdi.Properties.NullText = "Kullanıcı Adınız...";
             this.beKullaniciAdi.Properties.NullValuePrompt = "Kullanıcı Adınız...";
             this.beKullaniciAdi.Properties.Padding = new System.Windows.Forms.Padding(2, 2, 0, 0);
-            this.beKullaniciAdi.Size = new System.Drawing.Size(395, 46);
+            this.beKullaniciAdi.Size = new System.Drawing.Size(395, 38);
             this.beKullaniciAdi.TabIndex = 70;
-            // 
-            // panelCode
-            // 
-            this.panelCode.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.panelCode.Controls.Add(this.btnKodOnayla);
-            this.panelCode.Controls.Add(this.beCode);
-            this.panelCode.Enabled = false;
-            this.panelCode.Location = new System.Drawing.Point(5, 3);
-            this.panelCode.Name = "panelCode";
-            this.panelCode.Size = new System.Drawing.Size(445, 120);
-            this.panelCode.TabIndex = 78;
-            this.panelCode.Visible = false;
-            // 
-            // btnKodOnayla
-            // 
-            this.btnKodOnayla.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btnKodOnayla.Appearance.Options.UseFont = true;
-            this.btnKodOnayla.AppearanceHovered.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
-            this.btnKodOnayla.AppearanceHovered.Options.UseFont = true;
-            this.btnKodOnayla.AutoSize = true;
-            this.btnKodOnayla.ImageOptions.SvgImage = global::OphelliasOasis.Presentation.Properties.Resources.actions_arrow4right1;
-            this.btnKodOnayla.Location = new System.Drawing.Point(266, 73);
-            this.btnKodOnayla.Name = "btnKodOnayla";
-            this.btnKodOnayla.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.btnKodOnayla.ShowFocusRectangle = DevExpress.Utils.DefaultBoolean.False;
-            this.btnKodOnayla.Size = new System.Drawing.Size(154, 44);
-            this.btnKodOnayla.TabIndex = 73;
-            this.btnKodOnayla.Text = "Kod Onayla";
-            // 
-            // beCode
-            // 
-            this.beCode.Cursor = System.Windows.Forms.Cursors.Default;
-            this.beCode.EditValue = "";
-            this.beCode.Location = new System.Drawing.Point(25, 21);
-            this.beCode.Name = "beCode";
-            this.beCode.Properties.AllowNullInput = DevExpress.Utils.DefaultBoolean.False;
-            this.beCode.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
-            this.beCode.Properties.Appearance.Options.UseFont = true;
-            this.beCode.Properties.AppearanceFocused.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.beCode.Properties.AppearanceFocused.Options.UseFont = true;
-            this.beCode.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat;
-            editorButtonImageOptions3.AllowGlyphSkinning = DevExpress.Utils.DefaultBoolean.True;
-            editorButtonImageOptions3.ImageUri.Uri = "Show";
-            editorButtonImageOptions3.Location = DevExpress.XtraEditors.ImageLocation.MiddleRight;
-            editorButtonImageOptions3.SvgImage = global::OphelliasOasis.Presentation.Properties.Resources.security_visibilityoff;
-            editorButtonImageOptions3.SvgImageColorizationMode = DevExpress.Utils.SvgImageColorizationMode.CommonPalette;
-            serializableAppearanceObject10.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
-            serializableAppearanceObject10.Options.UseFont = true;
-            serializableAppearanceObject11.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            serializableAppearanceObject11.Options.UseFont = true;
-            serializableAppearanceObject11.Options.UseTextOptions = true;
-            serializableAppearanceObject11.TextOptions.HotkeyPrefix = DevExpress.Utils.HKeyPrefix.Show;
-            this.beCode.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, editorButtonImageOptions3, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject9, serializableAppearanceObject10, serializableAppearanceObject11, serializableAppearanceObject12, "Şifreyi Göster", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
-            this.beCode.Properties.ButtonsStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat;
-            this.beCode.Properties.ContextImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("beCode.Properties.ContextImageOptions.SvgImage")));
-            this.beCode.Properties.ContextImageOptions.SvgImageColorizationMode = DevExpress.Utils.SvgImageColorizationMode.Full;
-            this.beCode.Properties.Mask.BeepOnError = true;
-            this.beCode.Properties.Mask.UseMaskAsDisplayFormat = true;
-            this.beCode.Properties.MaxLength = 20;
-            this.beCode.Properties.NullText = "Lütfen Emailinize gelen kodu giriniz..";
-            this.beCode.Properties.NullValuePrompt = "Lütfen Emailinize gelen kodu giriniz..";
-            this.beCode.Properties.Padding = new System.Windows.Forms.Padding(2, 0, 0, 0);
-            this.beCode.Properties.PasswordChar = '*';
-            this.beCode.Properties.UseSystemPasswordChar = true;
-            this.beCode.Size = new System.Drawing.Size(395, 46);
-            this.beCode.TabIndex = 72;
-            // 
-            // svgImageBox1
-            // 
-            this.svgImageBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.svgImageBox1.Location = new System.Drawing.Point(181, 12);
-            this.svgImageBox1.Name = "svgImageBox1";
-            this.svgImageBox1.Size = new System.Drawing.Size(120, 120);
-            this.svgImageBox1.SizeMode = DevExpress.XtraEditors.SvgImageSizeMode.Zoom;
-            this.svgImageBox1.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("svgImageBox1.SvgImage")));
-            this.svgImageBox1.TabIndex = 69;
-            this.svgImageBox1.Text = "svgImageBox1";
-            // 
-            // tgTema
-            // 
-            this.tgTema.Location = new System.Drawing.Point(14, 7);
-            this.tgTema.Margin = new System.Windows.Forms.Padding(5);
-            this.tgTema.Name = "tgTema";
-            this.tgTema.Properties.OffText = "Off";
-            this.tgTema.Properties.OnText = "On";
-            this.tgTema.Size = new System.Drawing.Size(119, 20);
-            this.tgTema.TabIndex = 68;
-            // 
-            // errorProvider
-            // 
-            this.errorProvider.ContainerControl = this;
-            // 
-            // timer1
-            // 
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // beAd
             // 
@@ -373,7 +340,7 @@ namespace OphelliasOasis.Presentation.UI
             this.bePosta.Properties.AppearanceFocused.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
             this.bePosta.Properties.AppearanceFocused.Options.UseFont = true;
             this.bePosta.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat;
-            this.bePosta.Properties.ContextImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("tePosta.Properties.ContextImageOptions.SvgImage")));
+            this.bePosta.Properties.ContextImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("bePosta.Properties.ContextImageOptions.SvgImage")));
             this.bePosta.Properties.MaxLength = 40;
             this.bePosta.Properties.NullText = "Epostanız...";
             this.bePosta.Properties.NullValuePrompt = "Epostanız...";
@@ -393,7 +360,7 @@ namespace OphelliasOasis.Presentation.UI
             this.bePostaTekrar.Properties.AppearanceFocused.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
             this.bePostaTekrar.Properties.AppearanceFocused.Options.UseFont = true;
             this.bePostaTekrar.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat;
-            this.bePostaTekrar.Properties.ContextImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("tePostaTekrar.Properties.ContextImageOptions.SvgImage")));
+            this.bePostaTekrar.Properties.ContextImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("bePostaTekrar.Properties.ContextImageOptions.SvgImage")));
             this.bePostaTekrar.Properties.MaxLength = 40;
             this.bePostaTekrar.Properties.NullText = "Epostanızı Onaylayın..";
             this.bePostaTekrar.Properties.NullValuePrompt = "Epostanızı Onaylayın..";
@@ -401,13 +368,41 @@ namespace OphelliasOasis.Presentation.UI
             this.bePostaTekrar.Size = new System.Drawing.Size(395, 46);
             this.bePostaTekrar.TabIndex = 77;
             // 
+            // svgImageBox1
+            // 
+            this.svgImageBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.svgImageBox1.Location = new System.Drawing.Point(181, 12);
+            this.svgImageBox1.Name = "svgImageBox1";
+            this.svgImageBox1.Size = new System.Drawing.Size(120, 120);
+            this.svgImageBox1.SizeMode = DevExpress.XtraEditors.SvgImageSizeMode.Zoom;
+            this.svgImageBox1.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("svgImageBox1.SvgImage")));
+            this.svgImageBox1.TabIndex = 69;
+            this.svgImageBox1.Text = "svgImageBox1";
+            // 
+            // tgTema
+            // 
+            this.tgTema.Location = new System.Drawing.Point(14, 7);
+            this.tgTema.Margin = new System.Windows.Forms.Padding(5);
+            this.tgTema.Name = "tgTema";
+            this.tgTema.Properties.OffText = "Off";
+            this.tgTema.Properties.OnText = "On";
+            this.tgTema.Size = new System.Drawing.Size(119, 20);
+            this.tgTema.TabIndex = 68;
+            // 
+            // errorProvider
+            // 
+            this.errorProvider.ContainerControl = this;
+            // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // RegistrationUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(518, 716);
             this.Controls.Add(this.panelControl1);
-            this.IconOptions.SvgImage = global::OphelliasOasis.Presentation.Properties.Resources.doctor;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.MinimumSize = new System.Drawing.Size(520, 333);
@@ -419,21 +414,21 @@ namespace OphelliasOasis.Presentation.UI
             this.panelControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.panelReg)).EndInit();
             this.panelReg.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.beSifre.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.beSifreTekrar.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.beKullaniciAdi.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelCode)).EndInit();
             this.panelCode.ResumeLayout(false);
             this.panelCode.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.beCode.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.svgImageBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tgTema.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.errorProvider)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.behaviorManager1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.beSifre.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.beSifreTekrar.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.beKullaniciAdi.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.beAd.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.beSoyad.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bePosta.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bePostaTekrar.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.svgImageBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tgTema.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.behaviorManager1)).EndInit();
             this.ResumeLayout(false);
 
         }

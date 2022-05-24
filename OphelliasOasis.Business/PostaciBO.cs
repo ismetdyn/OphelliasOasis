@@ -4,8 +4,20 @@ using OphelliasOasis.Business;
 
 namespace OphelliasOasis.Business
 {
-    public class PostaciBO : BaseBO<PostaciBO>
+    public class PostaciBO
     {
+        private static PostaciBO _current;
+
+        public static PostaciBO Current
+        {
+            get 
+            {
+                if (_current == null) _current = new PostaciBO();
+                return _current; 
+            }
+        }
+
+
         private int sayi;
         protected int Sayi
         {

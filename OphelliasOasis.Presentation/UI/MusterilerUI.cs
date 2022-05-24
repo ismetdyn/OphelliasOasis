@@ -1,4 +1,5 @@
-﻿using DevExpress.XtraEditors;
+﻿using DevExpress.LookAndFeel;
+using DevExpress.XtraEditors;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -16,6 +17,12 @@ namespace OphelliasOasis.Presentation.UI
         public MusterilerUI()
         {
             InitializeComponent();
+        }
+
+        private void tgsTema_Toggled(object sender, EventArgs e)
+        {
+            if (((ToggleSwitch)sender).IsOn) UserLookAndFeel.Default.SetSkinStyle("Office 2019 Black");
+            else UserLookAndFeel.Default.SetSkinStyle("Office 2019 Colorful");
         }
     }
 }

@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Reflection;
+using OphelliasOasis.Business.Abstract;
 using OphelliasOasis.Common;
 using OphelliasOasis.Entity;
 using OphelliasOasis.ORM;
 
 namespace OphelliasOasis.Business
 {
-    public class KullaniciBO : BaseBO<KullaniciBO>
+    public class KullaniciBO : AbstractBaseBO<Kullanici, KullaniciORM, KullaniciBO>
     {
         public Result<Kullanici> KullaniciOlustur(DynamicDataTransferObject ddto)
         {
@@ -265,7 +266,6 @@ namespace OphelliasOasis.Business
                     Message = ex.Message
                 };
             }
-            
         }
     }
 }

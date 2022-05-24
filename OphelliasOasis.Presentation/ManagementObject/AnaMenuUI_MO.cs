@@ -20,7 +20,25 @@ namespace OphelliasOasis.Presentation.ManagementObject
             UI = new AnaMenuUI();
             UI.FormClosed += UI_FormClosed;
             UI.btnRaporlar.Click += BtnRaporlar_Click;
+            UI.btnMusteriler.Click += BtnMusteriler_Click;
+            UI.btnRezervasyonlar.Click += BtnRezervasyonlar_Click;
             UI.Show();
+        }
+
+        private void BtnRezervasyonlar_Click(object sender, EventArgs e)
+        {
+            UI.Close();
+            UI.Dispose();
+            InitializeForm.Current.Islem<RezervasyonlarUI_MO, RezervasyonlarUI>();
+            this.Dispose();
+        }
+
+        private void BtnMusteriler_Click(object sender, EventArgs e)
+        {
+            UI.Close();
+            UI.Dispose();
+            InitializeForm.Current.Islem<MusterilerUI_MO, MusterilerUI>();
+            this.Dispose();
         }
 
         private void BtnRaporlar_Click(object sender, EventArgs e)

@@ -67,6 +67,8 @@
     <Reference Include="DevExpress.XtraReports.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraReports.v20.1.Extensions, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraRichEdit.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraScheduler.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraTreeList.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraVerticalGrid.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="System" />
@@ -88,27 +90,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ManagementObject\Base_MO.cs" />
-    <Compile Include="ManagementObject\CalisanUI_MO.cs" />
     <Compile Include="ManagementObject\FrgtPsswrdUI_MO.cs" />
     <Compile Include="ManagementObject\LoginUI_MO.cs" />
+    <Compile Include="ManagementObject\MusterilerUI_MO.cs" />
     <Compile Include="ManagementObject\MusteriUI_MO.cs" />
     <Compile Include="ManagementObject\RaporlarUI_MO.cs" />
     <Compile Include="ManagementObject\RegistrationUI_MO.cs" />
     <Compile Include="ManagementObject\AnaMenuUI_MO.cs" />
+    <Compile Include="ManagementObject\RezervasyonlarUI_MO.cs" />
+    <Compile Include="ManagementObject\RezervasyonUI_MO.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UC\MusterilerToolTipUC.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UC\MusterilerToolTipUC.Designer.cs">
-      <DependentUpon>MusterilerToolTipUC.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UC\OdalarToolTipUC.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UC\OdalarToolTipUC.Designer.cs">
-      <DependentUpon>OdalarToolTipUC.cs</DependentUpon>
-    </Compile>
     <Compile Include="UI\FrgtPsswrdUI.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -127,11 +119,23 @@
     <Compile Include="UI\LoginUI.designer.cs">
       <DependentUpon>LoginUI.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\MusterilertTooltipUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\MusterilertTooltipUI.Designer.cs">
+      <DependentUpon>MusterilertTooltipUI.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\MusterilerUI.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="UI\MusterilerUI.Designer.cs">
       <DependentUpon>MusterilerUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\MusteriUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\MusteriUI.Designer.cs">
+      <DependentUpon>MusteriUI.cs</DependentUpon>
     </Compile>
     <Compile Include="UI\OdalarToolTipUI.cs">
       <SubType>Form</SubType>
@@ -169,6 +173,12 @@
     <Compile Include="UI\AnaMenuUI.Designer.cs">
       <DependentUpon>AnaMenuUI.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\RezervasyonUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\RezervasyonUI.Designer.cs">
+      <DependentUpon>RezervasyonUI.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -180,9 +190,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="UC\OdalarToolTipUC.resx">
-      <DependentUpon>OdalarToolTipUC.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="UI\FrgtPsswrdUI.resx">
       <DependentUpon>FrgtPsswrdUI.cs</DependentUpon>
     </EmbeddedResource>
@@ -191,6 +198,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UI\LoginUI.resx">
       <DependentUpon>LoginUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\MusterilerUI.resx">
+      <DependentUpon>MusterilerUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\MusteriUI.resx">
+      <DependentUpon>MusteriUI.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\OdalarToolTipUI.resx">
       <DependentUpon>OdalarToolTipUI.cs</DependentUpon>
@@ -206,6 +219,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UI\AnaMenuUI.resx">
       <DependentUpon>AnaMenuUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\RezervasyonlarUI.resx">
+      <DependentUpon>RezervasyonlarUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\RezervasyonUI.resx">
+      <DependentUpon>RezervasyonUI.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="App.config" />
     <None Include="Properties\Settings.settings">
@@ -242,6 +261,9 @@
     <Content Include="Resources\actions_arrow1down.svg" />
     <Content Include="Resources\actions_arrow4right.svg" />
     <Content Include="Resources\actions_arrow4right1.svg" />
+    <None Include="Resources\actions_arrow4right2.svg" />
+    <None Include="Resources\actions_arrow4right3.svg" />
+    <None Include="Resources\actions_arrow4right4.svg" />
     <Content Include="Resources\actions_check.svg" />
     <Content Include="Resources\actions_check1.svg" />
     <Content Include="Resources\actions_check2.svg" />
@@ -256,15 +278,18 @@
     <Content Include="Resources\bocustomer_32x321.png" />
     <Content Include="Resources\bo_folder.svg" />
     <Content Include="Resources\bo_lead.svg" />
+    <None Include="Resources\bo_lead1.svg" />
     <Content Include="Resources\bo_mydetails.svg" />
     <Content Include="Resources\bo_note.svg" />
     <Content Include="Resources\bo_note1.svg" />
+    <None Include="Resources\bo_position.svg" />
     <Content Include="Resources\bo_security_permission.svg" />
     <Content Include="Resources\bo_security_permission1.svg" />
     <Content Include="Resources\bo_user.svg" />
     <Content Include="Resources\bo_validation.svg" />
     <Content Include="Resources\bo_validation1.svg" />
     <Content Include="Resources\bo_validation10.svg" />
+    <None Include="Resources\bo_validation11.svg" />
     <Content Include="Resources\bo_validation2.svg" />
     <Content Include="Resources\bo_validation3.svg" />
     <Content Include="Resources\bo_validation4.svg" />
@@ -285,6 +310,8 @@
     <Content Include="Resources\del.svg" />
     <Content Include="Resources\del1.svg" />
     <Content Include="Resources\del2.svg" />
+    <None Include="Resources\deletedatasource.svg" />
+    <None Include="Resources\del3.svg" />
     <Content Include="Resources\doctor.svg" />
     <Content Include="Resources\doublefirst_32x32.png" />
     <Content Include="Resources\doublefirst_32x321.png" />
@@ -301,6 +328,7 @@
     <None Include="Resources\exporttotxt.svg" />
     <None Include="Resources\exporttoxlsx1.svg" />
     <None Include="Resources\exporttopdf1.svg" />
+    <None Include="Resources\editnames.svg" />
     <Content Include="Resources\find.svg" />
     <Content Include="Resources\formatastable_32x32.png" />
     <Content Include="Resources\historyitem_32x32.png" />
@@ -320,6 +348,7 @@
     <Content Include="Resources\pie_32x32.png" />
     <Content Include="Resources\private.svg" />
     <Content Include="Resources\publicfix_32x32.png" />
+    <None Include="Resources\refreshallpivottable.svg" />
     <Content Include="Resources\refreshallpivottable_32x32.png" />
     <None Include="Resources\report.svg" />
     <Content Include="Resources\report2_32x32.png" />

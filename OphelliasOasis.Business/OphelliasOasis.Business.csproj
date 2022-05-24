@@ -41,12 +41,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Abstract\AbstractGenerateRezervasyon.cs" />
-    <Compile Include="BaseBO.cs" />
-    <Compile Include="OdemeFabrikasi.cs" />
+    <Compile Include="Abstract\AbstractRezervasyonBO.cs" />
+    <Compile Include="Abstract\AbstractBaseBO.cs" />
     <Compile Include="KullaniciBO.cs" />
+    <Compile Include="MusteriBO.cs" />
     <Compile Include="PostaciBO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RezervasyonBO\OnOdemeliRezervasyonBO.cs" />
+    <Compile Include="RezervasyonBO\Standart_Klasik_RezervasyonBO.cs" />
+    <Compile Include="RezervasyonBO\TesvikRezervasyonBO.cs" />
+    <Compile Include="RezervasyonBO\_60GunOncedenRezervasyonBO.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\OphelliasOasis.Common\OphelliasOasis.Common.csproj">
@@ -62,5 +66,6 @@
       <Name>OphelliasOasis.ORM</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

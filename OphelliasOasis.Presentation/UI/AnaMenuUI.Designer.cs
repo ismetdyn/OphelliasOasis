@@ -76,6 +76,7 @@ namespace OphelliasOasis.Presentation.UI
             this.btnOdalar.ShowFocusRectangle = DevExpress.Utils.DefaultBoolean.False;
             this.btnOdalar.Size = new System.Drawing.Size(199, 185);
             this.btnOdalar.TabIndex = 6;
+            this.btnOdalar.Tag = "OdalarUI";
             this.btnOdalar.Text = "ODALAR";
             this.btnOdalar.ToolTipIconType = DevExpress.Utils.ToolTipIconType.Application;
             this.btnOdalar.MouseEnter += new System.EventHandler(this.btnOdalar_MouseEnter);
@@ -98,6 +99,7 @@ namespace OphelliasOasis.Presentation.UI
             this.btnRezervasyonlar.ShowFocusRectangle = DevExpress.Utils.DefaultBoolean.False;
             this.btnRezervasyonlar.Size = new System.Drawing.Size(199, 185);
             this.btnRezervasyonlar.TabIndex = 7;
+            this.btnRezervasyonlar.Tag = "RezervasyonlarUI";
             this.btnRezervasyonlar.Text = "REZERVASYONLAR";
             // 
             // btnMusteriler
@@ -115,6 +117,7 @@ namespace OphelliasOasis.Presentation.UI
             this.btnMusteriler.ShowFocusRectangle = DevExpress.Utils.DefaultBoolean.False;
             this.btnMusteriler.Size = new System.Drawing.Size(199, 185);
             this.btnMusteriler.TabIndex = 8;
+            this.btnMusteriler.Tag = "MusterilerUI";
             this.btnMusteriler.Text = "MÜŞTERİLER";
             // 
             // btnRaporlar
@@ -132,6 +135,7 @@ namespace OphelliasOasis.Presentation.UI
             this.btnRaporlar.ShowFocusRectangle = DevExpress.Utils.DefaultBoolean.False;
             this.btnRaporlar.Size = new System.Drawing.Size(199, 185);
             this.btnRaporlar.TabIndex = 9;
+            this.btnRaporlar.Tag = "RaporlarUI";
             this.btnRaporlar.Text = "RAPORLAR";
             // 
             // btnOtel
@@ -149,6 +153,7 @@ namespace OphelliasOasis.Presentation.UI
             this.btnOtel.ShowFocusRectangle = DevExpress.Utils.DefaultBoolean.False;
             this.btnOtel.Size = new System.Drawing.Size(199, 185);
             this.btnOtel.TabIndex = 10;
+            this.btnOtel.Tag = "OtelUI";
             this.btnOtel.Text = "OTEL";
             // 
             // btnGirisCikisKayitlari
